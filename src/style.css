@@ -20,10 +20,46 @@ body {
   padding: 30px 40px;
 }
 #newtask {
-  position: relative ;
+  position: relative;
   background-color: white;
   padding: 30px 20px;
   border-radius: 5px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+#newtask input {
+  width: 70%;
+  height: 45px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+}
+#newtask input:focus {
+  outline: none;
+  border-color: #ad8045;
+}
+#newtask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #ad8045;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#tasks {
+  background-color: white;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: relative;
 }
