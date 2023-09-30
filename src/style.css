@@ -91,3 +91,8 @@ body {
 .completed {
   text-decoration: line-through;
 }
+
+.code:not(a) {
+  margin-top: 20px;
+  color: white;
+}
